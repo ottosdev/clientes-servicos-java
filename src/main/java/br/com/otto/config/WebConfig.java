@@ -11,7 +11,7 @@ import org.springframework.core.Ordered;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
 
-import jakarta.servlet.FilterRegistration;
+
 
 @Configuration
 public class WebConfig {

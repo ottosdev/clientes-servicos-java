@@ -1,6 +1,8 @@
 package br.com.otto.dto;
 
-import jakarta.validation.constraints.NotBlank;
+
+import javax.validation.constraints.NotBlank;
+
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

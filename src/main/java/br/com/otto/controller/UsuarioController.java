@@ -1,5 +1,7 @@
 package br.com.otto.controller;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -11,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.otto.dto.UsuarioDTO;
 import br.com.otto.entity.Usuario;
 import br.com.otto.repository.UsuarioRepository;
-import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/usuarios")
@@ -31,3 +32,12 @@ public class UsuarioController {
 	}
 
 }
+
+
+/*
+ * Cliente enviar as credencias 
+ * Existem 2 servidores
+ * 	Autorizacao
+ *  Servidor
+ * 
+ */
