@@ -13,7 +13,7 @@ import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
 
 
 
-@Configuration
+//@Configuration
 public class WebConfig {
 
 	@Bean
